@@ -1,0 +1,29 @@
+
+project:
+  name: MobMask
+  seed: 42
+
+dataset:
+  name: minecraft-segmentation
+  root: data-source/minecraft-segmentation
+  image_size: 640
+
+task:
+  type: instance_segmentation
+  num_classes: null
+  class_names: []
+
+training:
+  model: null
+  batch_size: 8
+  epochs: 50
+  patience: 10
+  workers: 0
+
+hardware:
+  device: cuda
+
+outputs:
+  reports_dir: reports
+  figures_dir: reports/figures
+  checkpoints_dir: checkpoints
