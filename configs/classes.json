@@ -1,0 +1,20 @@
+{
+  "dataset": "klima7/minecraft-segmentation",
+  "task": "semantic_segmentation",
+  "mapping_status": "unverified",
+  "ignore_index": null,
+  "note": "IDs are observed pixel values only. Do not infer class names or treat ID 0 as background without dataset documentation.",
+  "classes": {
+    "0": "unverified_class_0",
+    "1": "unverified_class_1",
+    "2": "unverified_class_2",
+    "3": "unverified_class_3",
+    "4": "unverified_class_4",
+    "5": "unverified_class_5",
+    "6": "unverified_class_6",
+    "7": "unverified_class_7",
+    "8": "unverified_class_8",
+    "9": "unverified_class_9",
+    "10": "unverified_class_10"
+  }
+}

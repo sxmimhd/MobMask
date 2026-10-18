@@ -1,0 +1,41 @@
+project:
+  name: MobMask
+  seed: 42
+
+dataset:
+  name: klima7/minecraft-segmentation
+  root: data-source/minecraft-segmentation
+  archives:
+    - data/low_seg.zip
+    - data/high_seg.zip
+  unlabeled_archive: data/low_mc.zip
+  image_size: 256
+  num_classes: 11
+  label_ids: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+  class_names_status: unverified
+  split:
+    train: 0.8
+    validation: 0.1
+    test: 0.1
+  deduplicate_exact_images: true
+
+task:
+  type: semantic_segmentation
+  ignore_index: null
+
+training:
+  model: null
+  batch_size: 8
+  epochs: 50
+  patience: 10
+  workers: 0
+
+hardware:
+  device: cuda
+
+outputs:
+  manifest: data/processed/manifest.csv
+  audit_json: reports/dataset_audit.json
+  reports_dir: reports
+  figures_dir: reports/figures
+  checkpoints_dir: checkpoints

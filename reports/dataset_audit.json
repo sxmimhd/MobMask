@@ -1,0 +1,68 @@
+{
+  "dataset": "klima7/minecraft-segmentation",
+  "task": "semantic_segmentation",
+  "seed": 42,
+  "label_mapping_status": "unverified",
+  "assumed_label_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "archives": {
+    "low_seg.zip": 10405,
+    "high_seg.zip": 35236
+  },
+  "valid_pairs": 45641,
+  "invalid_pairs": 0,
+  "unique_exact_image_hashes": 45084,
+  "duplicate_image_occurrences": 557,
+  "split_counts": {
+    "validation": 4553,
+    "train": 36526,
+    "test": 4562
+  },
+  "mask_shapes": {
+    "(256, 256)": 45641
+  },
+  "pixel_counts_by_label_id": {
+    "0": 848915288,
+    "1": 439136371,
+    "2": 165751527,
+    "3": 442793109,
+    "4": 65935894,
+    "5": 659033355,
+    "6": 8088421,
+    "7": 76019126,
+    "8": 109119174,
+    "9": 171086039,
+    "10": 5250272
+  },
+  "pixel_percent_by_label_id": {
+    "0": 28.3811,
+    "1": 14.68129,
+    "2": 5.54144,
+    "3": 14.80355,
+    "4": 2.20438,
+    "5": 22.03293,
+    "6": 0.27041,
+    "7": 2.54149,
+    "8": 3.64809,
+    "9": 5.71978,
+    "10": 0.17553
+  },
+  "invalid_examples": [],
+  "notes": [
+    "Splits are deterministic and grouped by exact image SHA-256.",
+    "Near-duplicate scenes are not detected by this script.",
+    "Class names and ignore-index semantics remain unverified.",
+    "Label IDs outside 0..10 are reported as invalid; update LABEL_IDS only after investigating the dataset."
+  ]
+}
