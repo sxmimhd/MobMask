@@ -14,7 +14,7 @@ __pycache__/
 .coverage
 .coverage.*
 htmlcov/
-
+data-source/
 backend/.lyxia/
 backend/data/
 backend/.venv/
