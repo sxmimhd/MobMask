@@ -1,0 +1,968 @@
+{
+  "manifest_rows": 45641,
+  "unique_image_hashes": 45084,
+  "duplicate_groups": 183,
+  "rows_in_duplicate_groups": 740,
+  "repeated_occurrences_beyond_unique": 557,
+  "split_counts": {
+    "train": 36526,
+    "test": 4562,
+    "validation": 4553
+  },
+  "duplicate_groups_crossing_splits": 0,
+  "duplicate_groups_across_archives": 0,
+  "duplicate_groups_with_conflicting_masks": 175,
+  "duplicate_groups_with_identical_masks": 8,
+  "split_leakage_examples": [],
+  "cross_archive_examples": [],
+  "mask_conflict_examples": [
+    {
+      "image_sha256": "013c6be7d5aec9da9b83ce5fcd9f1ee42d088d9c85f481e29d10b5f275e3a905",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00648.png",
+              "mask_member": "masks/00648.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01080.png",
+              "mask_member": "masks/01080.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01545.png",
+              "mask_member": "masks/01545.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01704.png",
+              "mask_member": "masks/01704.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "0667bb9d98e884e83a024b67aa28a0537c04e91d079eda2aa08ec72e577c1bc9",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/12937.png",
+              "mask_member": "masks/12937.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/13438.png",
+              "mask_member": "masks/13438.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/13535.png",
+              "mask_member": "masks/13535.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/13869.png",
+              "mask_member": "masks/13869.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/14424.png",
+              "mask_member": "masks/14424.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "076745fb7cdb9c834740858b4a9b42953114c3a8495f7940dd6bcef5eff7cad9",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00138.png",
+              "mask_member": "masks/00138.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00603.png",
+              "mask_member": "masks/00603.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00635.png",
+              "mask_member": "masks/00635.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01443.png",
+              "mask_member": "masks/01443.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "0775772d5c888a4501b67f8abc42544e97418bd171825708f12692cd4b3c631c",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/03746.png",
+              "mask_member": "masks/03746.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/04161.png",
+              "mask_member": "masks/04161.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/04655.png",
+              "mask_member": "masks/04655.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/04767.png",
+              "mask_member": "masks/04767.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/04828.png",
+              "mask_member": "masks/04828.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "09444438119c93922f9e1aa436c9434e3c4ec33baa67a347ebf3b1ad7599dfe0",
+      "mask_variants": [
+        {
+          "record_count": 3,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/02048.png",
+              "mask_member": "masks/02048.png",
+              "split": "train"
+            },
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/02078.png",
+              "mask_member": "masks/02078.png",
+              "split": "train"
+            },
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/03340.png",
+              "mask_member": "masks/03340.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/02191.png",
+              "mask_member": "masks/02191.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/02290.png",
+              "mask_member": "masks/02290.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "09898251e606a68bb734402f580a482b9f3c54f34b996f03ef6aff293084c8e9",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/11038.png",
+              "mask_member": "masks/11038.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/11057.png",
+              "mask_member": "masks/11057.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/12146.png",
+              "mask_member": "masks/12146.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/12318.png",
+              "mask_member": "masks/12318.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/12530.png",
+              "mask_member": "masks/12530.png",
+              "split": "test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "09f1e10a2eb27b9542249ef7d6a0b42183dd79a8d20ab66000b590867d4cb842",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/04388.png",
+              "mask_member": "masks/04388.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/05191.png",
+              "mask_member": "masks/05191.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/05271.png",
+              "mask_member": "masks/05271.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/05388.png",
+              "mask_member": "masks/05388.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "104f18b25ce4de21c4e86798cba1419a2d82c01f62ae96b98e8f6dbda91858cc",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/05812.png",
+              "mask_member": "masks/05812.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/06278.png",
+              "mask_member": "masks/06278.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/06521.png",
+              "mask_member": "masks/06521.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/06908.png",
+              "mask_member": "masks/06908.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "10b72acfb48cabdb8cebc0674b782b63ae7894b72fc42b52a4390c186101dca8",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/30485.png",
+              "mask_member": "masks/30485.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/31102.png",
+              "mask_member": "masks/31102.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "116ba7dea7562203e8013102e2409231123b7dce58d8714c51fa26f3ffdcad6a",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/02787.png",
+              "mask_member": "masks/02787.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/02861.png",
+              "mask_member": "masks/02861.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/03184.png",
+              "mask_member": "masks/03184.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "1415e06b6d3dd9ed9a5b118dae26e4257924f5322814179c637e69256790c198",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00075.png",
+              "mask_member": "masks/00075.png",
+              "split": "validation"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00253.png",
+              "mask_member": "masks/00253.png",
+              "split": "validation"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00614.png",
+              "mask_member": "masks/00614.png",
+              "split": "validation"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00887.png",
+              "mask_member": "masks/00887.png",
+              "split": "validation"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "15e71d8579429a97ceac7074578fedc2b1cd2ab2f5a0053163bdd02b6a577b59",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/24858.png",
+              "mask_member": "masks/24858.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/25006.png",
+              "mask_member": "masks/25006.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/25256.png",
+              "mask_member": "masks/25256.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/25262.png",
+              "mask_member": "masks/25262.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "175b959fa7f98137d323ba00c81ef77ef389ae343ec147c1704a5030b9beae91",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/02913.png",
+              "mask_member": "masks/02913.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/02997.png",
+              "mask_member": "masks/02997.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/03452.png",
+              "mask_member": "masks/03452.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/03590.png",
+              "mask_member": "masks/03590.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "low_seg.zip",
+              "image_member": "imgs/03633.png",
+              "mask_member": "masks/03633.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "19928a36d748ed6a2ddde411039f1606fdcfb3a269449a8d8354e714d7cfac3b",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00139.png",
+              "mask_member": "masks/00139.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00281.png",
+              "mask_member": "masks/00281.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00793.png",
+              "mask_member": "masks/00793.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00852.png",
+              "mask_member": "masks/00852.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "1a352c86e8bfdbeda571605b3fe659d01626bb86cbbc12a4616e860fd9359fe3",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/21879.png",
+              "mask_member": "masks/21879.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/22056.png",
+              "mask_member": "masks/22056.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/22220.png",
+              "mask_member": "masks/22220.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "1b229c5d00c78639affb6a6d7ffc50d963824d07c14ff9bf546d5232b7f53c43",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/19643.png",
+              "mask_member": "masks/19643.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/20068.png",
+              "mask_member": "masks/20068.png",
+              "split": "test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "1bddb6457a261d02bbbbc58cfbc9deb04896df6979eb2372f5df75021ba5f05a",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/33635.png",
+              "mask_member": "masks/33635.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/33638.png",
+              "mask_member": "masks/33638.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/33820.png",
+              "mask_member": "masks/33820.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/34301.png",
+              "mask_member": "masks/34301.png",
+              "split": "test"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/34639.png",
+              "mask_member": "masks/34639.png",
+              "split": "test"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "1deb4c6aad90f46ff1a765e2ec6cd633455c915ef0062a8958dcdf53175e2244",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/02641.png",
+              "mask_member": "masks/02641.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/03589.png",
+              "mask_member": "masks/03589.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/03608.png",
+              "mask_member": "masks/03608.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "222775ecd70162f0794106925c6f728c9fb91ef42a7b56e0165791b09fb2a79a",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00492.png",
+              "mask_member": "masks/00492.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01149.png",
+              "mask_member": "masks/01149.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01177.png",
+              "mask_member": "masks/01177.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01405.png",
+              "mask_member": "masks/01405.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "image_sha256": "228f6dc94ea6810ea29453d1da2baf127bc7fa1137d4b745d6673aaa385a71e1",
+      "mask_variants": [
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/00600.png",
+              "mask_member": "masks/00600.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01258.png",
+              "mask_member": "masks/01258.png",
+              "split": "train"
+            }
+          ]
+        },
+        {
+          "record_count": 1,
+          "records": [
+            {
+              "archive": "high_seg.zip",
+              "image_member": "imgs/01418.png",
+              "mask_member": "masks/01418.png",
+              "split": "train"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
