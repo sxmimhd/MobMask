@@ -1,0 +1,142 @@
+[
+  {
+    "epoch": 1,
+    "train_loss": 0.4071535780860255,
+    "val_loss": 0.3166947793514158,
+    "val_pixel_accuracy": 0.905473025007979,
+    "val_mean_iou": 0.5904475583789239,
+    "val_mean_dice": 0.6558385619828019,
+    "learning_rate": 0.001,
+    "epoch_seconds": 915.8369569778442
+  },
+  {
+    "epoch": 2,
+    "train_loss": 0.3157681723609783,
+    "val_loss": 0.2782394741783555,
+    "val_pixel_accuracy": 0.9144930941126987,
+    "val_mean_iou": 0.6112592479636579,
+    "val_mean_dice": 0.6802836277883006,
+    "learning_rate": 0.001,
+    "epoch_seconds": 922.4976482391357
+  },
+  {
+    "epoch": 3,
+    "train_loss": 0.2902930171115175,
+    "val_loss": 0.26026533311202243,
+    "val_pixel_accuracy": 0.9184230181926323,
+    "val_mean_iou": 0.6262562474843963,
+    "val_mean_dice": 0.6995578602741478,
+    "learning_rate": 0.001,
+    "epoch_seconds": 909.8749160766602
+  },
+  {
+    "epoch": 4,
+    "train_loss": 0.27007105098146406,
+    "val_loss": 0.2614071941113252,
+    "val_pixel_accuracy": 0.9190416308829686,
+    "val_mean_iou": 0.6236745156566452,
+    "val_mean_dice": 0.6964611142719107,
+    "learning_rate": 0.001,
+    "epoch_seconds": 916.8040702342987
+  },
+  {
+    "epoch": 5,
+    "train_loss": 0.2587165329112729,
+    "val_loss": 0.2410687181305786,
+    "val_pixel_accuracy": 0.9231655423310781,
+    "val_mean_iou": 0.6552273111293571,
+    "val_mean_dice": 0.7353355905516586,
+    "learning_rate": 0.001,
+    "epoch_seconds": 910.3756144046783
+  },
+  {
+    "epoch": 6,
+    "train_loss": 0.2491034498214983,
+    "val_loss": 0.24986816773486875,
+    "val_pixel_accuracy": 0.9211505108185452,
+    "val_mean_iou": 0.6521501720617687,
+    "val_mean_dice": 0.729851035061435,
+    "learning_rate": 0.001,
+    "epoch_seconds": 924.4295518398285
+  },
+  {
+    "epoch": 7,
+    "train_loss": 0.24359360766186938,
+    "val_loss": 0.22723965299848198,
+    "val_pixel_accuracy": 0.9273484613563945,
+    "val_mean_iou": 0.6688546792876048,
+    "val_mean_dice": 0.7484409861922953,
+    "learning_rate": 0.001,
+    "epoch_seconds": 906.5015780925751
+  },
+  {
+    "epoch": 8,
+    "train_loss": 0.23694269997488204,
+    "val_loss": 0.22574357999508757,
+    "val_pixel_accuracy": 0.9275478712417465,
+    "val_mean_iou": 0.6675962317545469,
+    "val_mean_dice": 0.7479427229220389,
+    "learning_rate": 0.001,
+    "epoch_seconds": 899.8901526927948
+  },
+  {
+    "epoch": 9,
+    "train_loss": 0.23252185778543968,
+    "val_loss": 0.22106958572422833,
+    "val_pixel_accuracy": 0.9284974954271222,
+    "val_mean_iou": 0.6709611453506162,
+    "val_mean_dice": 0.751317419935624,
+    "learning_rate": 0.001,
+    "epoch_seconds": 894.0569751262665
+  },
+  {
+    "epoch": 10,
+    "train_loss": 0.22812474629041277,
+    "val_loss": 0.2159182281922095,
+    "val_pixel_accuracy": 0.9297861442339701,
+    "val_mean_iou": 0.6837407549724804,
+    "val_mean_dice": 0.7668791384309646,
+    "learning_rate": 0.001,
+    "epoch_seconds": 894.5179071426392
+  },
+  {
+    "epoch": 11,
+    "train_loss": 0.22545876773321596,
+    "val_loss": 0.22003389731648465,
+    "val_pixel_accuracy": 0.9295288427777273,
+    "val_mean_iou": 0.6805435593080593,
+    "val_mean_dice": 0.7637998955156472,
+    "learning_rate": 0.001,
+    "epoch_seconds": 890.8457098007202
+  },
+  {
+    "epoch": 12,
+    "train_loss": 0.22319740038143807,
+    "val_loss": 0.2198825938238067,
+    "val_pixel_accuracy": 0.9286679829866211,
+    "val_mean_iou": 0.6725490754866875,
+    "val_mean_dice": 0.75582815567242,
+    "learning_rate": 0.001,
+    "epoch_seconds": 893.3438398838043
+  },
+  {
+    "epoch": 13,
+    "train_loss": 0.2199890776609517,
+    "val_loss": 0.21053044210285662,
+    "val_pixel_accuracy": 0.9312443120542946,
+    "val_mean_iou": 0.6821601001548665,
+    "val_mean_dice": 0.7637285321059288,
+    "learning_rate": 0.001,
+    "epoch_seconds": 888.3986852169037
+  },
+  {
+    "epoch": 14,
+    "train_loss": 0.21612640055819382,
+    "val_loss": 0.20567510672880743,
+    "val_pixel_accuracy": 0.9322224496983444,
+    "val_mean_iou": 0.6910814315400455,
+    "val_mean_dice": 0.7734404515606138,
+    "learning_rate": 0.001,
+    "epoch_seconds": 986.7885718345642
+  }
+]
